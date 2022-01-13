@@ -1,0 +1,73 @@
+h1{
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    color: linen;
+}
+
+body{
+    background: linear-gradient(-90deg, rgb(240, 205, 139), white);
+}
+
+form{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 616px;
+}
+
+input{
+    border-radius: 10px;
+    border: solid 1px linen;
+    width: 250px;
+    height: 27px;
+}
+
+label{
+    color: black;
+    font-size: large;
+    line-height: 40px;
+}
+.card{
+    margin-top: 10px;
+}
+button{
+    margin-top: 15px;
+    font-size: 15px;
+    border: 0px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 174, 0);
+}
+button:hover
+{
+    color: whitesmoke;
+    background-color: rgb(250, 181, 92);
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.child
+{
+    width: 350px;
+    height: 24px;
+    padding: 10px;
+    background-color: linen;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+.btn{
+    margin-left: 638px;
+}
+.btn:hover{
+    color: whitesmoke;
+    background-color: rgb(250, 181, 92);
+}
